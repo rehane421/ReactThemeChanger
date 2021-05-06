@@ -1,0 +1,209 @@
+
+.theme-options {
+    margin: 0 auto;
+    text-align: right;
+    background:darkgray;
+    #text {
+        width: 80px;
+        opacity: 1;
+        border: none;
+    }
+    div {
+        cursor: pointer;
+        width: 20px;
+        height: 20px;
+        border-radius: 4px;
+        margin: 2px 4px;
+        // border: 1px solid white;
+        display: inline-block;
+        opacity: 0.5;
+
+        &.active {
+            opacity: 1;
+        }
+    }
+    #white-theme {
+        background-color: #fff;
+    }
+    #sky-theme {
+        background-color: skyblue;
+    }
+    #blue-theme {
+        background-color: blue;
+    }
+    #orange-theme {
+        background-color: orange;
+    }
+    #purple-theme {
+        background-color: purple;
+    }
+    #green-theme {
+        background-color: green;
+    }
+    #dark-theme {
+        background-color: black;
+    }
+}
+
+// theme
+.App.white-theme {
+    background-color: #d7dfe2;
+    section .card {
+        background-color: #fff;
+    }
+    section .card .imgText h3 {
+        color: #2b91e6;
+    }
+    section .card .imgText h3 span {
+        color: #5b6369;
+    }
+    section .card .icons li a {
+        color: rgb(55, 167, 241);
+        background: #c8dbe9;
+    }
+    section .card .icons li a:hover {
+        color: #fff;
+    }
+    section .card .icons li a:before {
+        background: rgb(54, 151, 230);
+    }
+}
+
+.App.sky-theme {
+    background-color:#87cefa;
+    section .card {
+        background: #427ecc;
+    }
+    section .card .imgText h3 {
+        color: #fff;
+    }
+    section .card .imgText h3 span {
+        color: #2f353a;
+    }
+    section .card .icons li a {
+        color: rgb(55, 167, 241);
+        background: #c8dbe9;
+    }
+    section .card .icons li a:hover {
+        color: #fff;
+    }
+    section .card .icons li a:before {
+        background: rgb(54, 151, 230);
+    }
+}
+
+.App.blue-theme {
+    background-color:rgb(76, 66, 218) ;
+    section .card {
+        background: rgb(55, 14, 201);
+    }
+    section .card .imgText h3 {
+        color: #fff;
+    }
+    section .card .imgText h3 span {
+        color: #95a3ad;
+    }
+    section .card .icons li a {
+        color: rgb(55, 167, 241);
+        background: #c8dbe9;
+    }
+    section .card .icons li a:hover {
+        color: #fff;
+    }
+    section .card .icons li a:before {
+        background: rgb(54, 151, 230);
+    }
+}
+
+.App.orange-theme {
+    background-color: #fac562;
+    section .card {
+        background: #FF8C00;
+    }
+    section .card .imgText h3 {
+        color: rgb(214, 8, 8);
+    }
+    section .card .imgText h3 span {
+        color: rgb(223, 59, 59);
+    }
+    section .card .icons li a {
+        color: #fff;
+        background: rgb(238, 98, 18) 
+    }
+    section .card .icons li a:hover {
+        color: rgb(54, 151, 230);
+    }
+    section .card .icons li a:before {
+        background: #fff;
+    }
+}
+
+.App.purple-theme {
+    background-color: #BA55D3;
+    section .card {
+        background: #9932CC;
+    }
+    section .card .imgText h3 {
+        color: #fff;
+    }
+    section .card .imgText h3 span {
+        color: rgb(228, 182, 218);
+    }
+    section .card .icons li a {
+        color: #fff;
+        background: #9400D3; 
+    }
+    section .card .icons li a:hover {
+        color: rgb(54, 151, 230);
+    }
+    section .card .icons li a:before {
+        background: #fff;
+    }
+}
+
+.App.green-theme {
+    background-color: 	#3CB371;
+    section .card {
+        background: #2E8B57;
+    }
+    section .card .imgText h3 {
+        color: 	#90EE90;
+    }
+    section .card .imgText h3 span {
+        color: #00FA9A;
+    }
+    section .card .icons li a {
+        color: #fff;
+        background: #008000; 
+    }
+    section .card .icons li a:hover {
+        color: rgb(54, 151, 230);
+    }
+    section .card .icons li a:before {
+        background: #98FB98;
+    }
+}
+
+.App.dark-theme {
+    background-color: rgba(49, 49, 51, 0.74);
+    section .card {
+        background: rgba(49, 49, 51, 0.74);
+        box-shadow: 0 15px 25px rgba(0,0,0,0.025);
+    }
+    section .card .imgText h3 {
+        color: #fff;
+    }
+    section .card .imgText h3 span {
+        color: #c8dbe9;
+    }
+    section .card .icons li a {
+        color: rgb(55, 167, 241);
+        background: rgb(79, 79, 83) 
+    }
+    section .card .icons li a:hover {
+        color: #fff;
+    }
+    section .card .icons li a:before {
+        background: rgb(54, 151, 230);
+    }
+}
